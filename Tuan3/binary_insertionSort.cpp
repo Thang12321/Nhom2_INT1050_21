@@ -2,7 +2,7 @@
 using namespace std;
 void Binary_InsertionSort(int n, int arr[])
 {
-    for (int j = 2; j <= n; j++)
+    for (int j = 1; j < n; j++)
     {
         int trai = 0;
         int phai = j - 1;
